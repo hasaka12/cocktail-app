@@ -3,9 +3,10 @@ import axios from 'axios';
 import { RANDOM_COCKTAILS, SEARCH, FAVORITE_COCKTAILS } from "./types";
 
 let promises = [];
+const baseUrl = 'https://www.thecocktaildb.com/api/json/v1/1' // TODO: need to replace with .env
 
 export const searchCocktails = val => dispatch => {
-    axios.get(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${val}`)
+    axios.get(`${baseUrl}/search.php?s=${val}`)
     .then(res => {
         dispatch({
             type: SEARCH,
@@ -40,7 +41,7 @@ export const randomCocktails = () => dispatch => {
 }
 
 export const getRandomData = async () => {
-    const url = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
+    const url = `${baseUrl}/random.php`;
     try {
       const res = await axios.get(url);
   
