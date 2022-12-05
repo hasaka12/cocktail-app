@@ -1,9 +1,12 @@
+import TopBar from './containers/TopBar'
+import HomePage from './containers/HomePage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Test App
+      <TopBar />
+      <HomePage />
     </div>
   );
 }
