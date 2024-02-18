@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage Renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="mx-4"
+  >
+    <div
+      class="my-10"
+    >
+      <div
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-withChildren css-1puturl-MuiDivider-root"
+        role="separator"
+      >
+        <span
+          class="MuiDivider-wrapper css-qywfm8-MuiDivider-wrapper"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+          >
+            Gin Cocktails
+          </h4>
+        </span>
+      </div>
+    </div>
+    <div
+      class="lg:grid lg:grid-cols-5 lg:gap-4"
+    >
+      <div
+        class="flex m-2 items-center justify-center"
+      >
+        <div
+          class="flex justify-center bouncing-loader gap-2"
+        >
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 0ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 200ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 500ms;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="my-10"
+    >
+      <div
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-withChildren css-1puturl-MuiDivider-root"
+        role="separator"
+      >
+        <span
+          class="MuiDivider-wrapper css-qywfm8-MuiDivider-wrapper"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+          >
+            Vodka Cocktails
+          </h4>
+        </span>
+      </div>
+    </div>
+    <div
+      class="lg:grid lg:grid-cols-5 lg:gap-4"
+    >
+      <div
+        class="flex m-2 items-center justify-center"
+      >
+        <div
+          class="flex justify-center bouncing-loader gap-2"
+        >
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 0ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 200ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 500ms;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="my-10"
+    >
+      <div
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-withChildren css-1puturl-MuiDivider-root"
+        role="separator"
+      >
+        <span
+          class="MuiDivider-wrapper css-qywfm8-MuiDivider-wrapper"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+          >
+            Wine Cocktails
+          </h4>
+        </span>
+      </div>
+    </div>
+    <div
+      class="lg:grid lg:grid-cols-5 lg:gap-4"
+    >
+      <div
+        class="flex m-2 items-center justify-center"
+      >
+        <div
+          class="flex justify-center bouncing-loader gap-2"
+        >
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 0ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 200ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 500ms;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="my-10"
+    >
+      <div
+        class="MuiDivider-root MuiDivider-fullWidth MuiDivider-withChildren css-1puturl-MuiDivider-root"
+        role="separator"
+      >
+        <span
+          class="MuiDivider-wrapper css-qywfm8-MuiDivider-wrapper"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+          >
+            Tequila Cocktails
+          </h4>
+        </span>
+      </div>
+    </div>
+    <div
+      class="lg:grid lg:grid-cols-5 lg:gap-4"
+    >
+      <div
+        class="flex m-2 items-center justify-center"
+      >
+        <div
+          class="flex justify-center bouncing-loader gap-2"
+        >
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 0ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 200ms;"
+          />
+          <div
+            class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+            style="animation-delay: 500ms;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

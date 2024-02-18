@@ -1,3 +1,5 @@
+import { useSelector } from "react-redux";
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -7,7 +9,6 @@ import Button from "@mui/material/Button";
 import { NavigationService } from "../../services";
 import { Route } from "../../constants/routes-enum";
 import { RootState } from "../../store/store";
-import { useSelector } from "react-redux";
 
 interface NavItem {
   name: string;
@@ -21,8 +22,6 @@ const TopAppBar = () => {
   const favoriteCocktail = useSelector(
     (state: RootState) => state.favoriteCocktail.data
   );
-
-  console.log(favoriteCocktail.length);
 
   return (
     <Box sx={{ flexGrow: 1, mb: 2 }}>

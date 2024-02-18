@@ -9,7 +9,7 @@ const initialState: CounterState = {
   data: [],
 };
 
-const counterSlice = createSlice({
+const favoriteCocktailSlice = createSlice({
   name: "my-counter",
   initialState,
   reducers: {
@@ -26,6 +26,6 @@ const counterSlice = createSlice({
   },
 });
 
-export const { addFavoriteCocktails } = counterSlice.actions;
+export const { addFavoriteCocktails } = favoriteCocktailSlice.actions;
 
-export default counterSlice.reducer;
+export default favoriteCocktailSlice.reducer;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoritePage renders "Favorite Cocktails" heading 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-center mb-4"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+    >
+      Favorite Cocktails
+    </h4>
+  </div>
+  <div
+    class="lg:grid lg:grid-cols-5 lg:gap-4"
+  />
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+  >
+    No favorite cocktail
+  </p>
+</DocumentFragment>
+`;

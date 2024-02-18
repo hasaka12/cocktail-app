@@ -3,8 +3,7 @@ import axios from "axios";
 
 import { CategoryCocktailDto } from "../../models/CategoryCocktailDto";
 import { HomeKey } from "../../constants/home-page";
-
-const baseUrl = "https://www.thecocktaildb.com/api/json/v1/1"; // TODO: need to replace with .env
+import { BASE_URL } from "../../constants/app";
 
 interface CounterState {
   isLoading: boolean;
@@ -35,7 +34,7 @@ const categorySearchCocktailSlice = createSlice({
 export const getCategorySearchCocktail = createAsyncThunk(
   "getCategorySearchCocktail",
   async (key: HomeKey) => {
-    const url = `${baseUrl}/filter.php?i=${key}`;
+    const url = `${BASE_URL}/filter.php?i=${key}`;
     try {
       const res = await axios.get(url);
       return { ...res.data, key };

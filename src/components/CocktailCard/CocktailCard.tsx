@@ -32,7 +32,11 @@ const CocktailCard = ({
           {title}
         </Typography>
         {desc ? (
-          <Typography variant="body2" color="text.secondary">
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            id="description-text"
+          >
             {desc}
           </Typography>
         ) : null}

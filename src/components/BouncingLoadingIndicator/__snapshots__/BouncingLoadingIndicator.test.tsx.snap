@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CocktailCard Renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-center bouncing-loader gap-2"
+  >
+    <div
+      class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+      style="animation-delay: 0ms;"
+    />
+    <div
+      class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+      style="animation-delay: 200ms;"
+    />
+    <div
+      class="bg-blue-500 w-3 h-3 rounded-full animate-bounce"
+      style="animation-delay: 500ms;"
+    />
+  </div>
+</DocumentFragment>
+`;

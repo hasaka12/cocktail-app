@@ -2,8 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 import { SearchCocktailDto } from "../../models/SearchCocktailDto";
-
-const baseUrl = "https://www.thecocktaildb.com/api/json/v1/1"; // TODO: need to replace with .env
+import { BASE_URL } from "../../constants/app";
 
 interface CounterState {
   data: SearchCocktailDto | null;
@@ -27,7 +26,7 @@ const searchCocktailSlice = createSlice({
 export const getSearchCocktail = createAsyncThunk(
   "getSearchCocktail",
   async (keyWord: string) => {
-    const url = `${baseUrl}/search.php?s=${keyWord}`;
+    const url = `${BASE_URL}/search.php?s=${keyWord}`;
     try {
       const res = await axios.get(url);
       return res.data;
