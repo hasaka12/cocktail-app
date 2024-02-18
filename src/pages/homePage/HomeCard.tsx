@@ -38,11 +38,11 @@ export default function HomeCard({ keyValue }: HomeCardProps) {
       {categoryCocktail && categoryCocktail.length > 0 ? (
         categoryCocktail
           .filter((item) => item.key === keyValue)
-          .map((cocktails) => (
-            <Fragment key={cocktails.key}>
-              {cocktails.drinks.slice(0, 10).map((cocktail) => (
+          .map((cocktails, i) => (
+            <Fragment key={`${cocktails.key}-${i}`}>
+              {cocktails.drinks.slice(0, 10).map((cocktail, j) => (
                 <div
-                  key={cocktail.idDrink}
+                  key={`${cocktails.key}-${j}`}
                   className="flex lg:mx-2 my-2 justify-center items-center"
                 >
                   <CocktailCard
