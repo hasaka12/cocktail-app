@@ -27,9 +27,6 @@ export default function HomeCard({ keyValue }: HomeCardProps) {
     dispatch(addFavoriteCocktails(cocktail));
   };
 
-  console.log(categoryCocktail);
-  console.log(keyValue);
-
   useEffect(() => {
     if (!categoryCocktail.some((item) => item.key === keyValue)) {
       dispatch(getCategorySearchCocktail(keyValue));
