@@ -26,6 +26,9 @@ const categorySearchCocktailSlice = createSlice({
       })
       .addCase(getCategorySearchCocktail.fulfilled, (state, action) => {
         state.isLoading = false;
+        if (state.data.some((item) => item.key === action.payload.key)) {
+          return;
+        }
         state.data.push(action.payload);
       });
   },
